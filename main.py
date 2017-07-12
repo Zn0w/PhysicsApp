@@ -1,3 +1,3 @@
-from src import gui
+import gui
 
 guiHandler = gui.GuiHandler()
