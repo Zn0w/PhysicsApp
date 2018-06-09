@@ -1,5 +1,5 @@
 from tkinter import *
-import mathHandling
+import maths
 
 class GuiHandler:
     def __init__(self):
@@ -31,7 +31,7 @@ class GuiHandler:
         angle = self.angleTxt.get(1.0, END)[:-1]
         speed = self.speedTxt.get(1.0, END)[:-1]
 
-        self.mathHandler = mathHandling.MathHandler(angle, speed)
+        self.mathHandler = maths.MathHandler(angle, speed)
 
         self.createResultsWindow()
 
